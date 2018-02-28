@@ -1,0 +1,111 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-color: #efefef;
+}
+.menu_kiri{
+	width:15.5%;
+	background-color: #424242;
+	height: 100%;
+	position: fixed;
+}
+.menu_kiri section{
+	height: 100%;
+	width: 100%;
+	padding: 0px 5px 0px 5px;
+}
+.menu_kiri section a{
+	text-decoration: none;
+	color: #fff;
+	margin: 5px 0px 5px 0px;
+	cursor: pointer;
+	display: block;
+	padding: 10px 10px 10px 10px;
+	font-size: 17px;
+	transition-property: all;
+	transition-duration: 0.5s;
+	text-transform: capitalize;
+}
+.menu_kiri section a:hover{
+	background-color: #a5a6a8;
+	transition-property: all;
+	transition-duration: 0.5s;
+}
+.menu_kiri .status{
+	width: 100%;
+	height: auto;
+	color: #fff;
+	padding: 5px 5px;	
+	background-color: rgba(0,0,0,0.3); 
+	text-align: left;
+}
+.menu_kiri .status h3{
+	font-size: 28px;
+	padding-left: 5px;
+	font-weight: normal;
+	text-transform: capitalize;
+}
+.menu_atas{
+	width: 84.5%;
+	height: 65px;
+	float: right;
+	background-color: #fff;
+}
+.menu_atas section{
+	width: 100%;
+	height: 100%;
+}
+.menu_atas section a{
+	float: right;
+	margin: 12px 15px 5px 5px;
+	font-size: 25px;
+	color: #000;
+	text-transform: capitalize;
+}
+.content{
+	width: 83.5%;
+	padding: 10px;
+	margin-top: 6px;
+	margin-right: 6px;
+	background-color: #fff;
+	height: auto;
+	float: right;
+}
+.content h2{
+	text-transform: capitalize;
+	font-weight: normal;
+	border-bottom: 5px solid#424242;
+	padding-bottom: 8px;
+	border-bottom-right-radius: 20%;
+	border-bottom-left-radius: 20%;
+}
+.btn-kanan{
+	float: right;
+}
+.modal-skin{
+	display: none;
+	width: 100%;
+	overflow: auto;
+	height: 100%;
+	z-index: 500;
+	position: fixed;
+	background-color: rgba(0,0,0,0.6);
+}
+.skin-login{
+	margin-top: 12%;
+	color: #293f54;
+	text-align: center;
+	font-family: 'Marvel';
+}
+.skin-login h1{
+	font-weight: bold;
+	border-bottom: 3px solid#293f54;
+	padding-bottom: 5px;
+	border-bottom-right-radius:17%;
+	border-bottom-left-radius: 17%;
+}
+.skin-login span{
+	font-size: 100px;
+}
